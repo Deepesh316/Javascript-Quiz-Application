@@ -1,0 +1,53 @@
+/*Custom Style for JavaScript Quiz Project */
+body {
+	background: rgb(40,74,133);
+	font-family: 'Arial', sans-serif;
+	font-size: 14px;
+}
+
+#container {
+	background: rgb(255,255,255);
+	width: 60%;
+	margin: 20px auto;
+	overflow: auto;
+	padding: 25px;
+}
+
+header {
+	text-align: center;
+	border-bottom: 1px dashed rgb(0,0,0);
+}
+
+header h1 {
+	margin : 0;
+	padding: 0;
+}
+
+header p {
+	margin-top: 5px;
+	padding: 0px;
+}
+
+footer {
+	text-align: center;
+}
+
+input[type='submit'] {
+	background: rgb(40,74,133);
+	padding: 10px 25px;
+	border: 0;
+	color: rgb(255,255,255);
+	cursor: pointer;
+}
+
+#results h3 {
+	padding: 10px;
+	background: rgb(40,74,133);
+	color: rgb(255,255,255);
+	margin: 10px 0;
+}
+
+#results span {
+	color:rgb(0,0,0);
+	font-weight: bold;
+}
